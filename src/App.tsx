@@ -2676,7 +2676,7 @@ const routeTree = rootRoute.addChildren([
   retrospectiveHistoryRoute,
   watcherRoute,
 ]);
-export const router = createRouter({ routeTree });
+export const router = createRouter({ routeTree, basepath: '/grad-hire-prototypes' });
 
 declare module "@tanstack/react-router" {
   interface Register {
